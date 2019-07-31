@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Test CSS</title>
+    <style>
+        h1, h2 {
+            color: red;
+        }
+        ol > li {
+            color: blue;
+        }
+        input[type=text] {
+            background-color: red;
+        }
+        input[type=number] {
+            background-color: yellow;
+        }
+
+        button {
+            width: 200px;
+            height: 50px;
+            font-size: 24px;
+            background-color: green;
+        }
+
+        button:hover {
+            background-color: orange;
+        }
+        a::before {
+            content: "\21d2 Click here: ";
+            font-weight: bold;
+        }
+
+        p::selection {
+            color: red;
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <h1>Big Headline</h1>
+    <h2>Smaller Headline</h2>
+    <ol>
+        <li>list item one</li>
+        <li>list item two</li>
+        <ul>
+            <li>sublist item one</li>
+            <li>sublist item two</li>
+        </ul>
+        <li>list item three</li>
+    </ol>
+    <form>
+        <input name="name" type="text" placeholder="First Name">
+        <input name="name" type="text" placeholder="Last Name">
+        <input name="name" type="number" placeholder="Age">
+    </form>
+    <button>Click me!</button>
+    <ul>
+        <li><a href="#">one link</a></li>
+        <li><a href="#">second link</a></li>
+        <li><a href="#">third link</a></li>
+    </ul>
+    <p>
+        On an evening that could have produced explosions in their own political rivalry, Mr. Sanders and Ms. Warren instead formed something of an ideological tag team to defend their shared agenda, above all on health care. Though each is seen as the other’s chief obstacle in the Democratic race, Mr. Sanders and Ms. Warren did not at any point clash directly.
+    </p>
+</body>
+</html>
